@@ -3,12 +3,12 @@
 This repository contains a Flask web application that takes an image of an ingredient label from packaged food products and predicts whether the product contains allergens. If allergens are detected, it also identifies the specific allergens present.
 
 ## Table of Contents
-- Installation
-- Usage
-- Model Training
-- Dependencies
-- [Contributing](docs/CONTRIBUTING.md)
-
+- [Installation](#installation)
+- [Usage](#usage)
+- [Model Training](#model-training)
+- [Dependencies](#dependencies)
+- [Contributing](#contributing)
+  
 ## Installation
 
 ### 1.Clone the Repository
@@ -79,5 +79,6 @@ Evaluate both models using appropriate metrics such as accuracy, precision, reca
 **Install dependencies using:**
 `pip install -r requirements.txt`
 
-##Contributing
+## Contributing
+
 Contributions are welcome! Please fork this repository and submit a pull request for any improvements, bug fixes, or additional features.
