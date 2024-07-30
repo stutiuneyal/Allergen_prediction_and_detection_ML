@@ -4,7 +4,8 @@ import pickle
 import cv2
 import pytesseract
 import re
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+import os
+#pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 
 app = Flask(__name__)
@@ -177,4 +178,5 @@ def clean_file(input_file, output_file):
      
         
 if __name__ == "__main__":
+    os.system('apt install tesseract-ocr')
     app.run(debug=True)
