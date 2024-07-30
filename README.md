@@ -65,25 +65,25 @@ Evaluate both models using appropriate metrics such as accuracy, precision, reca
 
 ## Dependencies
 
--blinker==1.8.2
--click==8.1.7
--colorama==0.4.6
--Flask==3.0.3
--gunicorn==22.0.0
--itsdangerous==2.2.0
--Jinja2==3.1.4
--joblib==1.4.2
--MarkupSafe==2.1.5
--numpy==1.26.4
--opencv-python==4.9.0.80
--packaging==24.0
--pillow==10.3.0
--pytesseract==0.3.10
--scikit-learn==1.2.2
--scikit-multilearn==0.2.0
--scipy==1.13.1
--threadpoolctl==3.5.0
--Werkzeug==3.0.3
+- blinker==1.8.2
+- click==8.1.7
+- colorama==0.4.6
+- Flask==3.0.3
+- gunicorn==22.0.0
+- itsdangerous==2.2.0
+- Jinja2==3.1.4
+- joblib==1.4.2
+- MarkupSafe==2.1.5
+- numpy==1.26.4
+- opencv-python==4.9.0.80
+- packaging==24.0
+- pillow==10.3.0
+- pytesseract==0.3.10
+- scikit-learn==1.2.2
+- scikit-multilearn==0.2.0
+- scipy==1.13.1
+- threadpoolctl==3.5.0
+- Werkzeug==3.0.3
 
 **Install dependencies using:**
 `pip install -r requirements.txt`
