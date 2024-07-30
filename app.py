@@ -182,7 +182,7 @@ def clean_file(input_file, output_file):
         
 if __name__ == "__main__":
     st = subprocess.getoutput('which tesseract')
-pytesseract.pytesseract.tesseract_cmd = st
+    pytesseract.pytesseract.tesseract_cmd = st
 
     #os.system('apt install tesseract-ocr')
     app.run(debug=True)
