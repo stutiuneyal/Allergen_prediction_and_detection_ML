@@ -5,8 +5,10 @@ import cv2
 import pytesseract
 import re
 import os
+import subprocess
+
 #pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-pytesseract.pytesseract.tesseract_cmd = r"/usr/bin/tesseract"
+#pytesseract.pytesseract.tesseract_cmd = r"/usr/bin/tesseract"
 
 
 app = Flask(__name__)
@@ -179,5 +181,8 @@ def clean_file(input_file, output_file):
      
         
 if __name__ == "__main__":
-    os.system('apt install tesseract-ocr')
+    st = subprocess.getoutput('which tesseract')
+pytesseract.pytesseract.tesseract_cmd = st
+
+    #os.system('apt install tesseract-ocr')
     app.run(debug=True)
