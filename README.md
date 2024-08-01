@@ -12,8 +12,7 @@ This repository contains a Flask web application that takes an image of an ingre
 ## Installation
 
 ### 1.Clone the Repository
-`git clone https://github.com/your-username/food-allergen-detection.git
-cd food-allergen-detection`
+`git clone https://github.com/stutiuneyal/Allergen_prediction_and_detection_ML.git`
 
 ### 2.Install Required Packages
 `pip install -r requirements.txt`
